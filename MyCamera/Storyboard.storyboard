@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C2037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="H4n-WO-e5z">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="FSi-ct-yAG">
+            <objects>
+                <viewController id="H4n-WO-e5z" customClass="CameraViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iGc-ni-vXI">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l3Y-M9-cfn"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8vY-ef-Fn8">
+                                <items>
+                                    <navigationItem title="Title" id="6g8-Co-2kv">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="6Vy-Ie-Tud">
+                                            <connections>
+                                                <action selector="backButton:" destination="H4n-WO-e5z" id="Ara-DV-N7D"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="W5V-AY-naP">
+                                            <connections>
+                                                <action selector="doneButton:" destination="H4n-WO-e5z" id="akB-UT-Dng"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="l3Y-M9-cfn" firstAttribute="leading" secondItem="iGc-ni-vXI" secondAttribute="leading" type="default" id="5gj-HM-U1r"/>
+                            <constraint firstItem="8vY-ef-Fn8" firstAttribute="top" secondItem="iGc-ni-vXI" secondAttribute="top" type="default" id="MQ3-Jd-rRM"/>
+                            <constraint firstItem="l3Y-M9-cfn" firstAttribute="bottom" secondItem="iGc-ni-vXI" secondAttribute="bottom" type="default" id="ZVF-kj-hMn"/>
+                            <constraint firstItem="l3Y-M9-cfn" firstAttribute="trailing" secondItem="iGc-ni-vXI" secondAttribute="trailing" type="default" id="cvq-AO-YhE"/>
+                            <constraint firstItem="l3Y-M9-cfn" firstAttribute="top" secondItem="8vY-ef-Fn8" secondAttribute="bottom" type="default" id="nVo-73-L2n"/>
+                            <constraint firstItem="8vY-ef-Fn8" firstAttribute="trailing" secondItem="iGc-ni-vXI" secondAttribute="trailing" type="default" id="tHn-mg-phg"/>
+                            <constraint firstItem="8vY-ef-Fn8" firstAttribute="leading" secondItem="iGc-ni-vXI" secondAttribute="leading" type="default" id="vVO-cf-FI6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="l3Y-M9-cfn" id="gmx-sH-yGG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qFT-zy-wCo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168" y="260"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

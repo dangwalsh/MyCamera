@@ -21,6 +21,16 @@
 		B5B5050916BEBCE500A7D1EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B504EA16BEBCE400A7D1EA /* Foundation.framework */; };
 		B5B5051116BEBCE500A7D1EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5B5050F16BEBCE500A7D1EA /* InfoPlist.strings */; };
 		B5B5051416BEBCE500A7D1EA /* MyCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B5051316BEBCE500A7D1EA /* MyCameraTests.m */; };
+		B5B5051F16BEBD3500A7D1EA /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B5051E16BEBD3500A7D1EA /* CameraViewController.m */; };
+		B5B5052216BEBEC300A7D1EA /* CustomOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B5052116BEBEC300A7D1EA /* CustomOverlayView.m */; };
+		B5B5052416BEC39600A7D1EA /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B5052316BEC39600A7D1EA /* Storyboard.storyboard */; };
+		B5B5052616BEC6FB00A7D1EA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B5052516BEC6FB00A7D1EA /* AssetsLibrary.framework */; };
+		B5B5052D16BEC94300A7D1EA /* switch_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B5052816BEC94300A7D1EA /* switch_button.png */; };
+		B5B5052E16BEC94300A7D1EA /* flash03.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B5B5052916BEC94300A7D1EA /* flash03.tiff */; };
+		B5B5052F16BEC94300A7D1EA /* flash02.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B5052A16BEC94300A7D1EA /* flash02.png */; };
+		B5B5053016BEC94300A7D1EA /* flash01.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B5052B16BEC94300A7D1EA /* flash01.png */; };
+		B5B5053416BEF9D100A7D1EA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B5053316BEF9D100A7D1EA /* QuartzCore.framework */; };
+		B5B5053A16BF24CB00A7D1EA /* take_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B5053916BF24CB00A7D1EA /* take_picture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,18 @@
 		B5B5051016BEBCE500A7D1EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5B5051216BEBCE500A7D1EA /* MyCameraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCameraTests.h; sourceTree = "<group>"; };
 		B5B5051316BEBCE500A7D1EA /* MyCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCameraTests.m; sourceTree = "<group>"; };
+		B5B5051D16BEBD3500A7D1EA /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		B5B5051E16BEBD3500A7D1EA /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		B5B5052016BEBEC300A7D1EA /* CustomOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOverlayView.h; sourceTree = "<group>"; };
+		B5B5052116BEBEC300A7D1EA /* CustomOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomOverlayView.m; sourceTree = "<group>"; };
+		B5B5052316BEC39600A7D1EA /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B5B5052516BEC6FB00A7D1EA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B5B5052816BEC94300A7D1EA /* switch_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_button.png; sourceTree = "<group>"; };
+		B5B5052916BEC94300A7D1EA /* flash03.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = flash03.tiff; sourceTree = "<group>"; };
+		B5B5052A16BEC94300A7D1EA /* flash02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash02.png; sourceTree = "<group>"; };
+		B5B5052B16BEC94300A7D1EA /* flash01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash01.png; sourceTree = "<group>"; };
+		B5B5053316BEF9D100A7D1EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B5B5053916BF24CB00A7D1EA /* take_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = take_picture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B5053416BEF9D100A7D1EA /* QuartzCore.framework in Frameworks */,
+				B5B5052616BEC6FB00A7D1EA /* AssetsLibrary.framework in Frameworks */,
 				B5B504E916BEBCE400A7D1EA /* UIKit.framework in Frameworks */,
 				B5B504EB16BEBCE400A7D1EA /* Foundation.framework in Frameworks */,
 				B5B504ED16BEBCE400A7D1EA /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +106,7 @@
 		B5B504DC16BEBCE400A7D1EA = {
 			isa = PBXGroup;
 			children = (
+				B5B5053316BEF9D100A7D1EA /* QuartzCore.framework */,
 				B5B504EE16BEBCE400A7D1EA /* MyCamera */,
 				B5B5050C16BEBCE500A7D1EA /* MyCameraTests */,
 				B5B504E716BEBCE400A7D1EA /* Frameworks */,
@@ -101,6 +126,7 @@
 		B5B504E716BEBCE400A7D1EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5B5052516BEC6FB00A7D1EA /* AssetsLibrary.framework */,
 				B5B504E816BEBCE400A7D1EA /* UIKit.framework */,
 				B5B504EA16BEBCE400A7D1EA /* Foundation.framework */,
 				B5B504EC16BEBCE400A7D1EA /* CoreGraphics.framework */,
@@ -114,6 +140,10 @@
 			children = (
 				B5B504F716BEBCE400A7D1EA /* CamAppDelegate.h */,
 				B5B504F816BEBCE400A7D1EA /* CamAppDelegate.m */,
+				B5B5051D16BEBD3500A7D1EA /* CameraViewController.h */,
+				B5B5051E16BEBD3500A7D1EA /* CameraViewController.m */,
+				B5B5052016BEBEC300A7D1EA /* CustomOverlayView.h */,
+				B5B5052116BEBEC300A7D1EA /* CustomOverlayView.m */,
 				B5B504EF16BEBCE400A7D1EA /* Supporting Files */,
 			);
 			path = MyCamera;
@@ -122,6 +152,12 @@
 		B5B504EF16BEBCE400A7D1EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5B5053916BF24CB00A7D1EA /* take_picture.png */,
+				B5B5052816BEC94300A7D1EA /* switch_button.png */,
+				B5B5052916BEC94300A7D1EA /* flash03.tiff */,
+				B5B5052A16BEC94300A7D1EA /* flash02.png */,
+				B5B5052B16BEC94300A7D1EA /* flash01.png */,
+				B5B5052316BEC39600A7D1EA /* Storyboard.storyboard */,
 				B5B504F016BEBCE400A7D1EA /* MyCamera-Info.plist */,
 				B5B504F116BEBCE400A7D1EA /* InfoPlist.strings */,
 				B5B504F416BEBCE400A7D1EA /* main.m */,
@@ -228,6 +264,12 @@
 				B5B504FB16BEBCE400A7D1EA /* Default.png in Resources */,
 				B5B504FD16BEBCE400A7D1EA /* Default@2x.png in Resources */,
 				B5B504FF16BEBCE400A7D1EA /* Default-568h@2x.png in Resources */,
+				B5B5052416BEC39600A7D1EA /* Storyboard.storyboard in Resources */,
+				B5B5052D16BEC94300A7D1EA /* switch_button.png in Resources */,
+				B5B5052E16BEC94300A7D1EA /* flash03.tiff in Resources */,
+				B5B5052F16BEC94300A7D1EA /* flash02.png in Resources */,
+				B5B5053016BEC94300A7D1EA /* flash01.png in Resources */,
+				B5B5053A16BF24CB00A7D1EA /* take_picture.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +306,8 @@
 			files = (
 				B5B504F516BEBCE400A7D1EA /* main.m in Sources */,
 				B5B504F916BEBCE400A7D1EA /* CamAppDelegate.m in Sources */,
+				B5B5051F16BEBD3500A7D1EA /* CameraViewController.m in Sources */,
+				B5B5052216BEBEC300A7D1EA /* CustomOverlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
