@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B50C72D516C049AE0043DCE8 /* take_picture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B50C72D416C049AE0043DCE8 /* take_picture@2x.png */; };
+		B5585F2816FBCD950097A61B /* SizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5585F2716FBCD950097A61B /* SizeViewController.m */; };
+		B5585F2B16FBCE3E0097A61B /* SizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5585F2A16FBCE3E0097A61B /* SizeView.m */; };
 		B5B504E916BEBCE400A7D1EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B504E816BEBCE400A7D1EA /* UIKit.framework */; };
 		B5B504EB16BEBCE400A7D1EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B504EA16BEBCE400A7D1EA /* Foundation.framework */; };
 		B5B504ED16BEBCE400A7D1EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B504EC16BEBCE400A7D1EA /* CoreGraphics.framework */; };
@@ -45,6 +47,10 @@
 
 /* Begin PBXFileReference section */
 		B50C72D416C049AE0043DCE8 /* take_picture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take_picture@2x.png"; sourceTree = "<group>"; };
+		B5585F2616FBCD950097A61B /* SizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeViewController.h; sourceTree = "<group>"; };
+		B5585F2716FBCD950097A61B /* SizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeViewController.m; sourceTree = "<group>"; };
+		B5585F2916FBCE3E0097A61B /* SizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeView.h; sourceTree = "<group>"; };
+		B5585F2A16FBCE3E0097A61B /* SizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeView.m; sourceTree = "<group>"; };
 		B5B504E516BEBCE400A7D1EA /* MyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B504E816BEBCE400A7D1EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5B504EA16BEBCE400A7D1EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -138,6 +144,10 @@
 		B5B504EE16BEBCE400A7D1EA /* MyCamera */ = {
 			isa = PBXGroup;
 			children = (
+				B5585F2916FBCE3E0097A61B /* SizeView.h */,
+				B5585F2A16FBCE3E0097A61B /* SizeView.m */,
+				B5585F2616FBCD950097A61B /* SizeViewController.h */,
+				B5585F2716FBCD950097A61B /* SizeViewController.m */,
 				B5B504F716BEBCE400A7D1EA /* CamAppDelegate.h */,
 				B5B504F816BEBCE400A7D1EA /* CamAppDelegate.m */,
 				B5B5051D16BEBD3500A7D1EA /* CameraViewController.h */,
@@ -308,6 +318,8 @@
 				B5B504F916BEBCE400A7D1EA /* CamAppDelegate.m in Sources */,
 				B5B5051F16BEBD3500A7D1EA /* CameraViewController.m in Sources */,
 				B5B5052216BEBEC300A7D1EA /* CustomOverlayView.m in Sources */,
+				B5585F2816FBCD950097A61B /* SizeViewController.m in Sources */,
+				B5585F2B16FBCE3E0097A61B /* SizeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

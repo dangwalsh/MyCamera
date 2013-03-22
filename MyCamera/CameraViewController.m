@@ -8,6 +8,7 @@
 
 #import "CameraViewController.h"
 #import "CustomOverlayView.h"
+#import "SizeViewController.h"
 
 #define CAMERA_TRANSFORM_X 1
 #define CAMERA_TRANSFORM_Y 1
@@ -102,7 +103,10 @@
 - (void)takePicture
 {
     [_picker takePicture];
+    SizeViewController *sizeViewController = [[SizeViewController alloc] initWithNibName:nil bundle:nil];
+    [self presentViewController: sizeViewController animated:YES completion: nil];
 }
+
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {

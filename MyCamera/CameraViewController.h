@@ -28,4 +28,6 @@
 - (void)showCamera;
 - (void)takePicture;
 
+//- (void) presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)flag completion:(void (^)(void))completion;
+
 @end
